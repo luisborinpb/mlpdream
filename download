@@ -1,0 +1,15 @@
+export type ChemistryRule = {
+  players: [string, string];
+  bonus: number;
+  label: string;
+};
+
+export const chemistryRules: ChemistryRule[] = [
+  { players: ["ben-johns", "anna-leigh-waters"], bonus: 10, label: "GOAT mixed duo" },
+  { players: ["ben-johns", "g. newman"], bonus: 6, label: "Elite doubles IQ" },
+  { players: ["jw-johnson", "tama-shimabukuro"], bonus: 8, label: "Future upside" },
+  { players: ["anna-bright", "rachel-rohrabacher"], bonus: 10, label: "Women’s doubles chemistry" },
+  { players: ["jade-kawamoto", "jackie-kawamoto"], bonus: 12, label: "Twin connection" },
+  { players: ["dylan-frazier", "jw-johnson"], bonus: 8, label: "Proven men’s duo" },
+  { players: ["hayden-patriquin", "anna-bright"], bonus: 5, label: "High-energy mixed" }
+];
